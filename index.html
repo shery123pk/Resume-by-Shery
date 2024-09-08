@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resume by Shery</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Static Resume by Shery</h1>
+    <form id="resumeForm">
+        <fieldset>
+            <legend>Personal Information</legend>
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required> <br><br>
+
+            <label for="e-mail">E-mail:</label>
+            <input type="email" id="email" name="email" required><br> <br>
+
+            <label for="phone">Contact</label>
+            <input type="phone" id="phone" name="phone" required>
+        </fieldset>
+
+        <fieldset>
+            <legend>Education/Qualification</legend>
+            <label for="Education">Education/Qualification</label>
+            <textarea id="education" rows="4" required></textarea>
+        </fieldset>
+
+        <fieldset>
+            <legend>Job/Skills</legend>
+            <label for="Skill">Job/Skill</label>
+            <textarea id="skill" rows="4" required></textarea>
+        </fieldset>
+
+        <fieldset>
+            <legend>Experience</legend>
+            <label for="Experience">Experience</label>
+            <textarea id="experience" rows="4" required></textarea>
+        </fieldset>
+        <button type="submit">Create Resume</button>
+    </form>
+
+    <div id="resumeOutput">
+    </div>
+    <script src="script.js"></script>
+
+
+</body>
+</html>

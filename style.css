@@ -1,0 +1,107 @@
+input:focus, textarea:focus {
+    border-color: #d93e62;
+    outline: none;
+}
+@media (max-width: 500px) {
+    form {
+        padding: 10px;
+    }
+
+    button {
+        width: 80%;
+    }
+
+    #resumeoutput {
+        padding: 12px;
+    }
+}
+
+
+body{
+    font-family: 'Times New Roman', Times, serif;
+    margin: 18px;
+    padding: 0;
+    background-color: #da4e4e;
+}
+
+h1{
+    text-align: center;
+    color: rgb(51, 29, 29);
+}
+
+form{
+    max-width: 500px;
+    margin: auto;
+    background-color: #f8b7c4;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, .9);
+    padding: 20px;
+}   
+
+fieldset{
+    border: 2px solid #140505;
+    border-radius: 8px;
+    padding: 20px;
+    margin-bottom: 20px;
+    background-color: rgba(192, 129, 134, 0.81);
+}
+legend{
+    font-weight: bold;
+    text-align: left;
+}
+
+label{
+    display: block;
+    margin-top: 5px;
+    }
+
+
+input,textarea{
+    width: auto;
+    padding: 7px;
+    margin-top: 4px;
+    border: 1px solid;
+    box-sizing: border-box;
+    border-radius: 4px;
+    resize: vertical; 
+}
+
+button{
+    display: block;
+    width: 180px;
+    padding: 10px;
+    background-color: #42368d;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 10px;
+    font-size: 16px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+button:hover{
+    background-color: #0b0f47;
+}
+#skill{
+    width: 100%;
+}
+#experience{
+    width: 100%;
+}
+
+#resumeOutput {
+    max-width: 600px;
+    margin: auto;
+    padding: 20px;
+    border: 2px solid #d68370;
+    border-radius: 8px;
+    background-color: rgb(202, 124, 139);
+    box-shadow: 0 4px 8px rgba(22, 19, 19, 0.5);
+    
+}
+
+#resumeOutput h2{
+    color: rgb(64, 29, 9);
+   }
